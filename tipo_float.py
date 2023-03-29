@@ -24,9 +24,9 @@ print(valor1)
 print(valor2)
 
 # Podemos converter um float para um int
-"""
-OBS: Ao converter valores float para inteiros, nós perdemos precisão
-"""
+
+#OBS: Ao converter valores float para inteiros, nós perdemos precisão
+
 res = int(valor)
 print(res)
 print(type(res))

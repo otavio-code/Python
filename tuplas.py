@@ -10,6 +10,7 @@ Existem basicamente duas diferenças básicas:
 Toda operação em uma tupla gera uma nova tupla.
 
 # CUIDADO 1: As tuplas são representadas por (), mas veja:
+"""
 
 tupla1 = (1, 2, 3, 4, 5, 6)
 print(tupla1)
@@ -36,9 +37,9 @@ print(type(tupla5))
 
 # CONCLUSÃO: Podemos concluir que tuplas são definidas pela vírgula e não pelo uso do parênteses
 
-(4) -> Não é tupla
-(4,) -> É tupla
-4, -> É tupla
+## (4) -> Não é tupla
+## (4,) -> É tupla
+## 4, -> É tupla
 
 # Podemos gerar uma tupla dinamicamente com range
 tupla = tuple(range(11))
@@ -149,7 +150,7 @@ print(meses[5:9])
 # - Tuplas são mais rápidas do que listas. 
 # - Tuplas deixam seu código mais seguro*.
 # * Isso porque trabalhar com elementos imutáveis traz segurança para o código
-"""
+
 
 # Copiando uma tupla para outra
 
@@ -167,5 +168,3 @@ nova = nova + outra
 
 print(nova)
 print(tupla)
-
-

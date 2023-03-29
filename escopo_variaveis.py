@@ -13,6 +13,7 @@ Dois casos de escopo:
 Para declarar variáveis em Python fazemos:
 
 nome_da_variavel = valor_da variavel
+
 Python é uma linguagem de tipagem dinâmica. Isso significa
 que ao declararmos uma variável, nós não colocamos o tipo de dado dela.
 Esse tipo é inferido ao atribuírmos o valor à mesma.
@@ -21,8 +22,11 @@ Exemplo em C:
 int numero = 42;
 
 Exemplo em Java;
-int numero =42;
+int numero = 42;
 """
+
+# Exemplo em Python
+
 numero = 42
 print(numero)
 print(type(numero))

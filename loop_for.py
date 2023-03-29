@@ -9,20 +9,22 @@ C ou Java
 for(int i = 0; i < limitador; i++){
     //execução do loop
 }
+"""
 
-Python
+#Python
 
-for item in interavel:
-    //execução do loop
+#for item in interavel:
+#    //execução do loop
 
-Utilizamos loops para iterar sobre sequências ou sobre valores iteráveis
-Exemplos de iteráveis:
-- String
-    nome = 'Geek University'
-- Lista
-    lista = [1, 3, 5, 7, 9]
-- Range
-    numeros = range(1, 10)
+#Utilizamos loops para iterar sobre sequências ou sobre valores iteráveis
+
+#Exemplos de iteráveis:
+#- String
+nome = 'Geek University'
+#- Lista
+lista = [1, 3, 5, 7, 9]
+#- Range
+numeros = range(1, 10)
 
 
 nome = "Geek University"
@@ -40,8 +42,8 @@ for numero in lista:
 
 # Exemplo de for 3 (Iterando sobre um range)
 
-range (valor_inicial, valor_final)
-OBS: O valor final não é inclusive.
+#range (valor_inicial, valor_final)
+#OBS: O valor final não é inclusive.
 
 for numero in range(1, 10):
     print(numero)
@@ -52,19 +54,17 @@ numeros = range(1, 10) # Temos que transformar em uma lista
 
 
 
-Enumerate: 
+#Enumerate: 
 ((0, 'G'), (1, 'e'), (2, 'e'), (3, 'k'))
 
 
-OBS: Quando não precisamos de um valor, podemos descartá-lo utilizando um underline (_)
+#OBS: Quando não precisamos de um valor, podemos descartá-lo utilizando um underline (_)
 
 for _, indice, letra in enumerate(nome):
     print(letra)
 
 for indice, letra in enumerate(nome):
     print(letra)
-
-
 
 
 # Na posição 0 vai trazer os números e na posição 1 vai trazer as letras
@@ -85,7 +85,7 @@ for n in range(1, qtd+1):
 
 print(f'A soma é {soma}')
 
-"""
+
 
 nome = 'Geek University'
 for letra in nome:
@@ -100,11 +100,3 @@ emoji = 'U0001F60D'
 for x in range(3):
     for num in range(1, 11):
         print('\U0001F60D' * num)
-
-
-
-
-
-
-
-

@@ -16,6 +16,7 @@ Já em Python:
 
 As listas em Python são representadas por colchetes: []
 
+"""
 
 type([])
 
@@ -47,9 +48,8 @@ print(lista5.count('e'))
 
 # Adicionar elementos em listas
 
-"""
 #Para adicionar elementos em listas, utilizamos a função append
-"""
+
 
 print(lista1)
 lista1.append(42)
@@ -276,14 +276,14 @@ print(numeros.index(9))
 #OBS: Caso não tenha este elemento na lista, será apresentado erro ValueError
 
 #OBS: Retorna o indice do primeiro elemento encontrado
-#print(numeros.index(5))
+print(numeros.index(5))
 
 # Podemos fazer busca dentro de um range, ou seja, qual indice começar a buscar
 
 print(numeros.index(5, 1)) # buscando a partir do indice 1
 print(numeros.index(5, 2)) # buscando a partir do indice 2
 print(numeros.index(5, 3)) # buscando a partir do indice 3
-#print(numeros.index(5, 4)) # buscando a partir do indice 4
+print(numeros.index(5, 4)) # buscando a partir do indice 4
 
 # OBS: Caso não tenha este elemento na lista, será apresentado erro ValueError
 
@@ -382,8 +382,6 @@ nova.append(4)
 
 print(lista)
 print(nova)
-"""
-
 
 
 # Veja que ao utilizarmos lista.copy() copiamos os dados da ista para uma nova lista, mas elas
@@ -401,4 +399,3 @@ nova.append(4)
 
 print(lista)
 print(nova)
-

@@ -6,10 +6,10 @@ Em python, um dado é considerado do tipo string sempre que:
 - Estiver entre àspas simples -> 'uma string', '234', 'a', 'True', '42.3'
 - Estiver entre àspas duplas -> "uma string", "234", "a", "True", "42.3"
 - Estiver entre àspas simples triplas -> '''uma string''', '''234''', '''a''', '''True''', '''42.3'''
-
-Estiver entre àspas duplas triplas -> """uma string""", """234""", """a""", """True""", """42.3"""
-O mais comum em python é utilizar àspas simples 
 """
+# Estiver entre àspas duplas triplas -> """uma string""", """234""", """a""", """True""", """42.3"""
+# O mais comum em python é utilizar àspas simples 
+
 
 nome = 'Geek University'
 print(nome)

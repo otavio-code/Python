@@ -32,6 +32,7 @@ se for falso o resultado será verdadeiro. Ou seja, sempre contrário.
 print(not ativo)
 
 # Ou (or)
+
 """
 É uma operação binária, ou seja, depende de dois valores. Ou um ou outro deve ser verdadeiro.
 
@@ -47,6 +48,7 @@ print(ativo or logado)
 
 
 # E (and):
+
 """
 Também é uma operação binária, ou seja, depende de dois valores.
 Ambos valores devem ser verdadeiro.
@@ -56,9 +58,3 @@ True and False -> False
 False and True -> False
 False and False -> False
 """
-
-
-
-
-
-
